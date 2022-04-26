@@ -1,0 +1,98 @@
+/*BASICS*/
+body {
+    background-color: lightslategrey !important;
+    color: white !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.margin-left {
+    margin-left: 1em;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-right {
+    margin-right: 1em;
+}
+
+
+/*MENU*/
+@media (min-width: 70em) {
+    .flex-center {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+}
+@media (max-width: 50em) {
+    .mobile {
+        max-width: 70%;
+    }
+}
+
+
+/*NAV*/
+nav {
+    background-color: rgb(154, 161, 170);
+    font-size: 1.5em;
+    color: white !important;
+}
+
+nav>button {
+    margin-left: 1em;
+}
+
+.nav-item:hover {
+    color: black !important;
+}
+
+/*BUTTON HOVER*/
+button {
+    transition: transform .1s; 
+  }
+  
+  button:hover {
+    transform: scale(1.1); 
+  }
+
+
+
+.float:hover {
+    transform: scale(1.05);
+}
+
+
+#hintergrundcontainer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.link {
+    color: white !important;
+}
+
+
+/*FOOTER*/
+.footer {
+    background-color: rgb(154, 161, 170);
+}
+
+@media (max-width: 40em) {
+    img.margin-top {
+        max-width: 50%;
+        }
+    }
+
+img.footer {
+    max-width: 50vh;
+}
