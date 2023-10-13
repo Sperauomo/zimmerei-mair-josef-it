@@ -1,0 +1,114 @@
+/******************BASICS***************/
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*MENU*/
+@media (min-width: 70em) {
+    .flex-center {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+}
+#titel {
+    color: #FFF;
+    font-size: 5em !important;
+}
+
+
+/*NAV*/
+nav {
+    background-color: rgb(172, 184, 199);
+    font-size: 1.5em;
+    color: white !important;
+}
+
+nav>button {
+    margin-left: 1em;
+}
+
+.nav-item:hover {
+    color: white !important;
+}
+
+.logo, .navbar-toggler {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+/******************WHATSAPP-BUTTON**************/
+.float{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:10px;
+	left:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+#whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+.float:hover {
+    transform: scale(1.05);
+}
+
+
+
+/******************TO THE TOP BUTTON**************************/
+#myBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none;
+    outline: none; 
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+      
+
+
+/*FOOTER*/
+.footer {
+    background-color: rgb(172, 184, 199);
+}
+
+img.footer {
+    max-width: 50vh;
+}
